@@ -9,13 +9,6 @@ public class FlashLight : MonoBehaviour
 
     void Update()
     {
-        // Example toggle logic (replace with your actual toggle input)
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            IsOn = !IsOn;
-            // Optionally trigger animation or light component here
-        }
-
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             if (Input.GetKey(KeyCode.LeftShift))
